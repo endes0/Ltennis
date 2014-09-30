@@ -12,6 +12,9 @@ for (int x = -1; x < pelotas; x++) {
   myservo.write(90);
   delay(500);
   myservo.write(0);
+  if (Serial.read() == 'Stop') {
+    break;
+  }
   delay(esp); 
   }
   
