@@ -3,7 +3,7 @@
 Servo myservo;
 
 void start2() {
-  myservo.attach(9);
+  myservo.attach(7);
 }
 
 void openP(char espera, char pelotas) {
